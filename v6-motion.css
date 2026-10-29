@@ -1,0 +1,10 @@
+.library-icon,.village-scene,.library-culture{overflow:hidden;mix-blend-mode:multiply}
+.village-scene{display:block;max-width:100%;margin-inline:auto}
+.station-illustration{width:min(100%,240px);height:220px}
+.village-scene.v4-art-small{width:100%;height:160px}
+.hanging-piece{transform-box:fill-box;transform-origin:50% 0}
+.hanging-scene.in-view .hanging-piece{animation:fish-breeze 3.8s ease-in-out 2 both;animation-delay:var(--delay,0s)}
+.station-illustration.in-view{animation:scene-arrive .65s ease-out both}
+@keyframes fish-breeze{0%,100%{transform:rotate(0)}25%{transform:rotate(2.2deg)}75%{transform:rotate(-2.2deg)}}
+@keyframes scene-arrive{from{opacity:.88;transform:translateY(5px) rotate(-.5deg)}to{opacity:1;transform:translateY(0) rotate(0)}}
+@media (prefers-reduced-motion:reduce){.hanging-scene.in-view .hanging-piece,.station-illustration.in-view{animation:none}}

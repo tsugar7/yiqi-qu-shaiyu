@@ -1,0 +1,9 @@
+@font-face{font-family:VillageMarker;src:url('assets/marker-title.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:VillageNoto;src:url('assets/noto-sans-sc.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}
+:root{--sans:VillageNoto,'Noto Sans SC','Microsoft YaHei',sans-serif;--serif:VillageNoto,'Noto Sans SC','Microsoft YaHei',sans-serif}
+body,button,input,textarea,select{font-family:var(--sans)}
+h1{font-family:VillageMarker,var(--sans);font-weight:400;letter-spacing:.02em;line-height:1.35}
+h2,h3,.brand,strong,.button,.menu-toggle{font-family:var(--sans)}
+.node-index{font-family:var(--sans);font-weight:700}
+.directory-item svg,.node-preview-illustration svg,.site-note svg{stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:360px){h1{letter-spacing:0}}

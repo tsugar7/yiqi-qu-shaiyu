@@ -1,0 +1,15 @@
+/* A village field notebook: the map leads, the drawings add warmth. */
+:root{--v7-border:#b7ab98;--v7-shadow:rgba(66,69,55,.12)}
+.start-route,.station-story,.notebook,.folio,.writing-sheet,.form-sheet,.return-slip,.entry-links,.fold-map,.map-panel,.node-preview{border:1px solid var(--v7-border);border-radius:5px;box-shadow:0 3px 12px var(--v7-shadow)}
+.start-route{border-left:4px solid var(--deep)}
+.v4-map-wrap{border:1px solid var(--v7-border);border-radius:5px;box-shadow:0 3px 12px var(--v7-shadow);padding:10px;background:var(--paper-light)}
+.map-panel:after,.fold-map:after{display:none}
+.map-pin{border-width:1px;box-shadow:0 2px 5px #223b3138}
+.route-guide{border-bottom:1px solid var(--line)}
+.station-story{background:#fdf9f0}
+.village-scene,.library-icon,.library-culture{mix-blend-mode:normal;pointer-events:none}
+.directory-item{transition:background-color .18s ease,transform .18s ease}
+.directory-item:hover{transform:translateX(3px)}
+.directory-item:focus-visible,.button:focus-visible,.map-pin:focus-visible{outline:3px solid var(--red-ink);outline-offset:3px}
+@media(max-width:760px){.v4-map-wrap{padding:8px}.station-story{padding:18px}.v4-node-hero{gap:4px}.station-illustration{height:190px}.map-pin[data-pin="graffiti"],.map-pin[href="#map?node=graffiti"]{transform:translate(-65%,-20%)}.map-pin[data-pin="fish"],.map-pin[href="#map?node=fish"]{transform:translate(-35%,-75%)}}
+@media(prefers-reduced-motion:reduce){.directory-item{transition:none}}

@@ -1,0 +1,5 @@
+.village-scene{display:block;max-width:100%;object-fit:contain;object-position:center;overflow:visible}
+.station-illustration{width:min(100%,260px);height:auto;max-height:250px}
+.village-scene.v4-art-small{width:min(100%,210px);height:auto;max-height:180px;float:none;margin:12px auto}
+.hang-heading .station-illustration{width:min(100%,300px)}
+@media(max-width:760px){.station-illustration{width:min(100%,240px);height:auto;max-height:220px}}
